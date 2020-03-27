@@ -1,0 +1,72 @@
+/*
+
+Theme Name: Twenty Nineteen Child
+Template: twentynineteen
+
+
+*/
+
+.main-wrapper{
+	max-width:1200px;
+	margin: auto;
+}
+
+/*
+
+Form styles
+
+*/
+
+.acf-form-register-form{
+	background:aliceblue;
+	border-radius: 10px;
+	padding:0px 10px;
+}
+
+
+.acf-form-register-form input{
+	border-radius:10px;
+    transition: padding 2s, background 1s, font-size 2s;
+    padding: 15px 10;
+}
+
+
+form input[type]:focus{
+	background: #f2faf0;
+	
+	font-size: 25px;
+}
+
+.acf-form-submit{
+	text-align:center;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+/**
+* Content
+**/
+
+.content-main{
+	display: flex;
+	margin: auto;
+}
+
+.item{
+	margin:0px 5px;
+	max-width:600px;
+	min-width:300px;
+	padding:5px;
+}
+
+.item-thumbnail img{
+    border-radius: 7px;
+}
+
+.item-content{
+	background:lightsalmon;
+	border-radius: 7px;
+	
+}
